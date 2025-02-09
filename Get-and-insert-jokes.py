@@ -2,7 +2,6 @@ import requests
 import json
 import pyodbc
 
-
 r = json.loads(requests.get('https://api.sampleapis.com/jokes/goodJokes').content)
 
 print()
